@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wedding Invitation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="invitation-container">
+
+    <!-- LEFT PANEL -->
+    <section class="panel">
+      <img src="images/cover.jpg" class="main-photo" alt="Couple">
+      <blockquote>
+        “Ya no son dos, sino uno solo. 
+        Por tanto, lo que Dios ha unido, 
+        que no lo separe el hombre.”
+        <br><span>(Mateo 19:6)</span>
+      </blockquote>
+      <h2>Gabriela & Alejandro</h2>
+
+      <div class="date-box">
+        <h3>AGOSTO</h3>
+        <p>SÁBADO</p>
+        <h1>24</h1>
+        <p>2025</p>
+      </div>
+
+      <div class="countdown" id="countdown">
+        <span id="days"></span> Días
+        <span id="hours"></span> Horas
+        <span id="minutes"></span> Min
+        <span id="seconds"></span> Seg
+      </div>
+    </section>
+
+    <!-- MIDDLE PANEL -->
+    <section class="panel">
+      <div class="photo-grid">
+        <img src="images/couple2.jpg" alt="">
+        <img src="images/couple3.jpg" alt="">
+        <img src="images/couple4.jpg" alt="">
+      </div>
+
+      <div class="event-info">
+        <h3>Ceremonia Religiosa</h3>
+        <p>Iglesia San Pedro<br>Calle Tarija y Av. América</p>
+        <a href="#" class="btn">Ver ubicación</a>
+
+        <h3>Recepción</h3>
+        <p>Jardín Padilla<br>Calle Sucre y 16 de Julio</p>
+        <a href="#" class="btn">Ver ubicación</a>
+      </div>
+
+      <div class="timeline">
+        <h3>Itinerario</h3>
+        <ul>
+          <li>12:00 PM – Sesión de fotos</li>
+          <li>4:00 PM – Ceremonia religiosa</li>
+          <li>5:00 PM – Torta</li>
+          <li>6:00 PM – Cena</li>
+          <li>7:00 PM – Primer baile</li>
+          <li>8:00 PM – Brindis</li>
+          <li>11:00 PM – Bocaditos</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- RIGHT PANEL -->
+    <section class="panel">
+      <h3>Código de Vestimenta</h3>
+      <p>Formal</p>
+
+      <h3>Sugerencia de regalos</h3>
+      <p>Su presencia será nuestro mejor regalo, pero si desean obsequiarnos algo más:</p>
+      <img src="images/qr.png" alt="QR Code" class="qr">
+
+      <h3>Confirmar Asistencia</h3>
+      <a href="#" class="btn">Confirmar aquí</a>
+
+      <p class="note">* No niños, por razones de seguridad.</p>
+      <p class="thanks">¡Muchas gracias!</p>
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
